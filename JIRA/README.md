@@ -1,5 +1,9 @@
 # JIRA
 
+> 이슈 트래킹 시스템
+>
+> 다양한 기능과 지표 관리 제공으로 높은 점유율을 차지하고 있음
+
 <br>
 
 ## JIRA를 왜 쓰는가?
@@ -14,7 +18,7 @@
 
 업무를 어떻게 수행했는지 한 눈에 알 수 있음
 
-
+<br>
 
 
 
@@ -67,18 +71,72 @@
 > Scrum, Kan-ban 둘 다 괜찮다
 >
 > **이슈 등록은 다 같이! 완료 처리는 등급에 따라 권한 부여!**
+
+
+
+
+
+<br>
+
+# DevOps
+
+> 개발 + 운영 (Development + Operations)
+
+#### `DevOps를 잘 수행하기 위한 조건`
+
+- 반복적인 작업들을 Tool을 이용해 자동화
+
+- 팀원 모두가 알고 있는 하나의 공유된 지표가 필요
+
+- 장애나 이슈가 있을 때 혼자만 알지 말고 팀원들과 공유 필요 -> `JIRA`
+
+
+
+## JIRA 사용법
+
+Issue Type
+
+- stroy
+  - ex) 사용자가 로그인을 한다
+- Epic
+  - 하나의 큰 틀
+  - 한 테마?
+  - 내가 필요한 이슈, 스토리를 넣어서 관리
+
+
+
+#### 스크럼보드
+
+- 스프린트별로 관리
+
+
+
+## JQL
+
+> Jira Query Language
+
+- JIRA 이슈를 구조적으로 검색하기 위한 명령어
+- SQL과 비슷하나 사용하는 필드가 다름
+
+
+
+#### `JQL field`
+
+> summary : 이슈 제목
 >
 > 
 
 
 
+#### `JQL operator`
 
-
-
-
-
-
-
+> =, !=, >, >=
+>
+> in, not in
+>
+> ~ (contains), !~ (not contains)
+>
+> is empty, is not empty, is null, is not null
 
 
 
